@@ -1,5 +1,11 @@
+import { Home } from "./components/home";
+
 const App = () => {
-  return <>random meal generator</>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 };
 
 export default App;
